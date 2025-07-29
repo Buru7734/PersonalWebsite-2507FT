@@ -1,0 +1,195 @@
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 15vh;
+  background-color: bisque;
+  padding: 0%;
+  margin: 0px;
+  box-shadow: 0 0 12px -2px rgb(166, 102, 102);
+  border-radius: 1%;
+  margin-bottom: 10px;
+  background-image: url("h1Picture.jpg");
+}
+
+h1 {
+  
+  margin: 0;
+  padding: 12px;
+  color: rgb(241, 247, 205);
+  border-radius: 10%;
+  transition: transform .6s;
+}
+
+h1:hover {
+  transform: scale(1.05);
+  transition: transform 1.3s ease;
+}
+
+#links > a {
+  text-decoration: none;
+  color: rgb(10, 1, 1);
+  padding: 10px;
+  font-weight: 70;
+  font-size: 24px;
+  background-color: rgb(241, 247, 205);
+  border-radius: 10%;
+}
+
+#links {
+  display: flex;
+  gap: 25px;
+   border-radius: 10%;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+  text-decoration: none;
+}
+
+#buru {
+  border-radius: 2%;
+  box-shadow: 0 4px 8px rgba(255, 0, 0, 0.2);
+  margin: 20px 0px 0px auto;
+  display: block;
+}
+
+#buru:hover {
+  transform: scale(1.05);
+  transition: transform 1.3s ease;
+}
+
+main {
+  min-height: 100vh;
+  padding: 85px 24px 96px;
+  box-shadow: 0 0 12px -2px black;
+  color: rgb(241, 247, 205);
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  background-image: url("BackgroundBody.png");
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #a85555;
+  color: #3bc9aa;
+  position: fixed;
+  width: 96.4%;
+  bottom: 0;
+}
+
+footer > a {
+  color: #c9b83b;
+  text-decoration: none;
+}
+
+h2 {
+  display: flex;
+  justify-content: left;
+  text-align: center;
+  font-size: 2em;
+  transition: transform .6s;
+}
+h2:hover {
+  transform: scale(1.05);
+  transition: transform 1.3s ease;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 1em;
+  color: rgb(241, 247, 205);
+  transition: transform .6s;
+}
+
+p:hover {
+  transform: scale(1.05);
+  transition: transform 1.3s ease;
+}
+
+h3 {
+  display: flex;
+  justify-content: left;
+  text-align: right;
+  font-size: 2em;
+  color: rgb(241, 247, 205);
+  transition: transform .6s;
+}
+
+h3:hover {
+  transform: scale(1.05);
+  transition: transform 1.3s ease;
+  
+}
+
+.text {
+  color: rgb(223, 223, 150);
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 89%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+footer a:hover {
+  color: #c9b83b;
+  text-decoration: underline;
+  transform: scale(1.05);
+  transition: transform 1.3s ease;
+}
+
+.firstSection {
+    background-color: rgb(241, 247, 205);
+    border-radius: 2%;
+    background-image: url("guernica3.jpg");
+}
+
+.secondSection {
+    background-image: url("Atropos.jpg");
+    border-radius: 2%;
+}
+
+.thirdSection {
+    background-image: url("duelo-garrotazos.jpg");
+    background-size: cover;
+    border-radius: 2%;
+}
+
+#home:hover {
+  transform: scale(1.05);
+  transition: transform 1.3s ease;}
+
+#about:hover {
+  transform: scale(1.05);
+  transition: transform 1.3s ease;}
+
+#portfolio:hover {
+  transform: scale(1.05);
+  transition: transform 1.3s ease;}
+
+  a:visited {
+    color: rgb(241, 247, 205);
+    
+  }
+
+   h1 a {
+    color: rgb(241, 247, 205);
+    text-decoration: none;
+  }

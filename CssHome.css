@@ -1,0 +1,236 @@
+/* * {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid: template rows 5px;
+} */
+
+header {
+  background-image: url("3.png");
+  height: 70px;
+  width: 110%;
+  margin: -10px;
+}
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 15vh;
+  background-color: bisque;
+  padding: 0%;
+  margin: 0px;
+  box-shadow: 0 0 12px -2px rgb(166, 102, 102);
+  border-radius: 1%;
+  margin-bottom: 10px;
+  background-image: url("h1Picture.jpg");
+}
+
+h1 {
+  color: rgb(26, 27, 24);
+  margin: 0;
+  padding: 12px;
+  color: rgb(241, 247, 205);
+  border-radius: 10%;
+  transition: transform 0.6s;
+}
+
+h1:hover {
+  transform: scale(1.05);
+  transition: transform 1.3s ease;
+}
+
+#links > a {
+  text-decoration: none;
+  color: rgb(10, 1, 1);
+  padding: 10px;
+  font-weight: 70;
+  font-size: 24px;
+  background-color: rgb(241, 247, 205);
+  border-radius: 10%;
+  transition: transform 0.6s;
+}
+#home:hover {
+  transform: scale(1.05);
+  transition: transform 1.3s ease;
+}
+
+#about:hover {
+  transform: scale(1.05);
+  transition: transform 1.3s ease;
+}
+
+#portfolio:hover {
+  transform: scale(1.05);
+  transition: transform 1.3s ease;
+}
+
+@keyframes example {
+  from {
+    background-color: rgb(185, 204, 148);
+    border-radius: 10%;
+  }
+  to {
+    background-color: bisque;
+    border-radius: 50%;
+  }
+}
+
+#links {
+  display: flex;
+  gap: 25px;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
+#buru {
+  border-radius: 2%;
+  box-shadow: 0 4px 8px rgba(255, 0, 0, 0.2);
+  margin: -50px 0px 0px auto;
+  display: block;
+  transition: transform 0.6s;
+}
+
+#buru:hover {
+  transform: scale(1.05);
+  transition: transform 1.3s ease;
+}
+
+main {
+  min-height: 100vh;
+  padding: 85px 24px 96px;
+  box-shadow: 0 0 12px -2px black;
+  color: rgb(241, 247, 205);
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  background-image: url("BackgroundBody.png");
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #a85555;
+  color: #3bc9aa;
+  position: fixed;
+  width: 96.4%;
+  bottom: 0;
+}
+
+footer > a {
+  color: #c9b83b;
+  text-decoration: none;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 2em;
+  transition: transform 0.6s;
+}
+h2:hover {
+  transform: scale(1.05);
+  transition: transform 1.3s ease;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 1em;
+  transition: transform 0.6s;
+}
+
+p:hover {
+  transform: scale(1.05);
+  transition: transform 1.3s ease;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 2em;
+  transition: transform 0.6s;
+}
+
+h3:hover {
+  transform: scale(1.05);
+  transition: transform 1.3s ease;
+}
+
+.text {
+  color: rgb(223, 223, 150);
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 89%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  margin: -70px 0 0 0;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.overlay {
+  transition: 0.5s ease;
+  background-color: #008cba;
+}
+
+footer a:hover {
+  color: #c9b83b;
+  text-decoration: underline;
+  transform: scale(1.05);
+  transition: transform 1.3s ease;
+}
+
+.favicon {
+  width: 50px;
+  height: 50px;
+  border-radius: 80%;
+  box-shadow: 0 4px 8px rgba(255, 0, 0, 0.2);
+}
+
+.img-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 50px;
+}
+
+.img-wrapper > .content {
+  position: absolute;
+  inset: 0;
+  background: rgba(46, 39, 39, 0.4);
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.img-wrapper > .content {
+  transition: 500ms ease-in-out;
+  opacity: 0;
+}
+.img-wrapper:hover > .content {
+  opacity: 1;
+}
+
+.maindiv {
+  display: flex;
+  justify-content: flex-end;
+}
